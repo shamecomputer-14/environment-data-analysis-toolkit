@@ -1,7 +1,8 @@
-# Polyglot Laboratory Data Platform
 
-A system that collects, processes, stores, and displays experimental data. Note: This system has been created for the sole purpose of a portfolio.
+# Polyglot Environmental Data Analysis Toolkit
 
+A polyglot toolkit that processes environmental-robot sensor data.
+Includes tools for validating, analyzing, and visualizing environmental sensor data. Note: This system has been created for the sole purpose of a portfolio.
 
 ## Documentation
 
@@ -10,9 +11,8 @@ A system that collects, processes, stores, and displays experimental data. Note:
 
 ## Features
 
-- Register laboratory samples, experiments, instruments, and users.
 - Ingest readings from simulated or real sensors/instruments.
-- Validate, clean, store, and visualize experimental data.
+- Validate, clean, store, and visualize environmental data.
 - Generate reports and export datasets.
 - Demonstrate language interoperability through a common API and shared schemas.
 ## Authors
@@ -24,9 +24,13 @@ A system that collects, processes, stores, and displays experimental data. Note:
 
 During this project, I learned the following:
 
-- .
-- .
-- .
+- Python: load CSV/JSON, clean data, plot temperature/light/pH trends.
+
+- C++: parse large sensor logs and apply a simple filter or calibration.
+
+- Rust: validate records, detect missing/duplicate/out-of-range values, and output a cleaned dataset.
+
+- Java: add later as a small REST API or report generator.
 
 
 
